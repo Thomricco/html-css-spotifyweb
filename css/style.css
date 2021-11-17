@@ -173,6 +173,8 @@ footer {
     display: flex;
 }
 
+/* inizio nav left */
+
 .nav-left {
     display: flex;
     width: 150px;
@@ -202,6 +204,8 @@ footer {
     margin-left: 10px;
 }
 
+
+/* inizio nav center */
 
 .nav-center {
     display: flex;
@@ -248,6 +252,9 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+/* inizio nav right */
 
 .nav-right {
     display: flex;
