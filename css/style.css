@@ -5,7 +5,6 @@
 }
 
 body {
-    width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,15 +14,10 @@ body {
 .flex-box {
     display: flex;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
-.fas {
-    font-size: 17px;
-    margin-right: 5px;
 
-}
 
 /* fine utility */
 
@@ -143,7 +137,7 @@ main {
 
 .navbar {
     position: fixed;
-    width: 1050px;
+    width: calc(100% - 150px);
     height: 60px;
     background-color: cornsilk;
 }
@@ -168,10 +162,132 @@ footer {
     display: flex;
     position: fixed;
     width: 100%;
-    max-width: 1200px;
     height: 60px;
     background-color: rgb(63, 63, 63);
     justify-content: space-between;
     align-items: center;
     background-color: #333;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.icon-footer-left {
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.album-small {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+
+}
+
+.text-album-small {
+    font-size: 10px;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+
+.nav-center {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.icon-footer-center {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.bar-center {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+
+.bar-white-center {
+    border: 1.7px white solid;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.bar-gray-center {
+    border: 1.7px gray solid;
+    width: 250px;
+    border-radius: 2px;
+}
+
+.number {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 150px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+.icon {
+    margin-left: 10px;
+}
+
+.icon-center {
+    margin-left: 20px;
+}
+
+.icon-max {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.icon-footer-right {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.bar-white {
+    border: 1.7px white solid;
+    width: 15px;
+    border-radius: 2px;
+}
+
+.bar-gray {
+    border: 1.7px gray solid;
+    width: 50px;
+    border-radius: 2px;
 }
