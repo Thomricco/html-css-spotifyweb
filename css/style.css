@@ -129,7 +129,6 @@ hr {
 
 
 main {
-    display: flex;
     height: calc(100vh - 60px);
     width: calc(100% - 150px);
     background-color: crimson;
@@ -146,10 +145,29 @@ main {
 
 .container {
     width: 100%;
-    height: calc(100vh - 60px);
+    height: 100%;
+    margin-top: 60px;
     background-color: coral;
 }
 
+.box-album {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+
+.text-album {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
 
 /* fine main */
 
