@@ -80,6 +80,11 @@ h3 {
     vertical-align: middle;
 }
 
+.text-icon2:hover {
+    color: white;
+    cursor: pointer;
+}
+
 
 .central-box {
     width: 100%;
@@ -180,16 +185,32 @@ main {
     margin-right: 12px;
 }
 
+.bottone:hover {
+    width: 155px;
+    height: 35px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
 .nav-main {
     display: flex;
     justify-content: center;
-    color: gray;
     margin-left: 10px;
-    font-size: 12px;
-    font-weight: bold;
     width: 100%;
 }
 
+.icon-nav {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.icon-nav:hover {
+    color: white;
+    cursor: pointer;
+
+}
 
 
 
@@ -211,6 +232,7 @@ main {
     width: 100%;
     padding-bottom: 10px;
 }
+
 
 
 .text-album {
@@ -259,6 +281,7 @@ footer {
 
 .nav-left {
     display: flex;
+    align-items: center;
     width: 150px;
     margin-left: 10px;
 }
@@ -269,6 +292,11 @@ footer {
     color: gray;
     margin-left: 10px;
     font-size: 13px;
+}
+
+.icon-footer-left:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .album-small {
@@ -286,17 +314,39 @@ footer {
     margin-left: 10px;
 }
 
+.subtitle-small {
+    font-size: 8px;
+    font-weight: bold;
+    align-items: center;
+    color: gray;
+    margin-left: 10px;
+
+}
+
+.subtitle-small:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 /* inizio nav center */
 
 .nav-center {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: calc(100% - 300px);
     height: 100%;
     align-items: center;
     justify-content: center;
 
+}
+
+.center-box-nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -306,6 +356,7 @@ footer {
     color: white;
     margin-right: 10px;
     font-size: 15px;
+
 }
 
 .bar-center {
@@ -314,25 +365,44 @@ footer {
     color: white;
     margin-right: 10px;
     font-size: 15px;
+    width: 500px;
+    padding-top: 10px;
 
 }
 
 .bar-white-center {
     border: 1.7px white solid;
-    width: 100px;
     border-radius: 2px;
+    width: 40%;
+    position: relative;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 50px;
+    bottom: -5px;
+    right: 0%;
+}
+
+
+.bar-white-center:hover {
+    border: 1.7px greenyellow solid;
 }
 
 .bar-gray-center {
     border: 1.7px gray solid;
-    width: 250px;
     border-radius: 2px;
+    width: 60%;
 }
 
 .number {
     font-size: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    width: 10%;
 }
 
 
@@ -356,9 +426,15 @@ footer {
     margin-left: 20px;
 }
 
+
 .icon-max {
     font-size: 25px;
     margin-left: 20px;
+}
+
+.icon-max:hover {
+    font-size: 27px;
+    cursor: pointer;
 }
 
 .icon-footer-right {
@@ -373,6 +449,10 @@ footer {
     border: 1.7px white solid;
     width: 15px;
     border-radius: 2px;
+}
+
+.bar-white:hover {
+    border: 1.7px greenyellow;
 }
 
 .bar-gray {
