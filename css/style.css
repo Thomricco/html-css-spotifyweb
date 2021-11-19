@@ -68,6 +68,7 @@ h3 {
 .imag {
     width: 20px;
     height: 20px;
+    margin-bottom: 5px;
     vertical-align: middle;
 }
 
@@ -119,6 +120,7 @@ h3 {
 .profile {
     width: 15px;
     height: 15px;
+    margin-left: 2px;
     background-color: gray;
     border-radius: 50px;
     vertical-align: middle;
@@ -413,7 +415,7 @@ footer {
     }
     
     .logo2 {
-        display: run-in;
+        display: inline;
     }
 
     .d-non {
